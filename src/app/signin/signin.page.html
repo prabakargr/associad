@@ -1,0 +1,50 @@
+<ion-content class="backgr" no-padding [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="dgset">
+      <ion-col>
+        <img src="../../assets/imgs/DG.png" alt="">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size='1'></ion-col>
+      <ion-col size='10'>
+        <ion-item class="iputBox">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input></ion-input>
+        </ion-item>        
+      </ion-col>
+      <ion-col size='1'></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size='1'></ion-col>
+      <ion-col size='10'>
+        <ion-item class="iputBox">
+          <ion-label position="floating">Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>        
+      </ion-col>
+      <ion-col size='1'></ion-col>
+    </ion-row>
+    <ion-row class=" ion-text-center">
+      <ion-col>
+        <button class="button" ion-button [routerLink]="['/welcome']">Sign In</button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-text-center">
+      <ion-col class="qus_head">
+        <a href="">Forgot Password?</a>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-text-center">
+      <ion-col class="qus_up">
+        <h6>Not a member yet?</h6>
+      </ion-col>
+    </ion-row>
+    <ion-row class=" ion-text-center">
+      <ion-col>
+        <button class="button_up" ion-button [routerLink]="['/signup-one']">Sign Up</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

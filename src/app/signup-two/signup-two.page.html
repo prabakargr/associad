@@ -1,0 +1,31 @@
+<ion-content class="backgr" no-padding  [fullscreen]="true">  
+  <ion-grid>
+  <ion-row class="dgset">
+    <ion-col>
+      <img src="../../assets/imgs/DG.png" alt="">
+    </ion-col>
+  </ion-row>
+  <ion-row  class="inset">
+    <ion-col size='1'></ion-col>
+    <ion-col size='10'>
+      <ion-lable>What do you see in following picture?(Tap to change)</ion-lable>
+      <img src="../../assets/imgs/input_1.png" alt="">
+      <ion-item class="iputBox">
+        <ion-label position="floating">Please respond here</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col  size='1'></ion-col>
+  </ion-row>
+  <ion-row class=" ion-text-center">
+    <ion-col>
+      <button class="button" ion-button [routerLink]="['/signin']">Continue</button>
+    </ion-col>
+  </ion-row>
+  <ion-row class=" ion-text-center">
+    <ion-col>
+      <button class="button_back" ion-button [routerLink]="['/signup-one']">Back</button>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,11 +1,12 @@
 #container {
   text-align: center;
+  margin-top: 30%;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // top: 40%;
+  // transform: translateY(-50%);
 }
 
 #container strong {
@@ -24,4 +25,36 @@
 
 #container a {
   text-decoration: none;
+}
+.backgr{
+  --background: #fff url("../../assets/imgs/BG.png") no-repeat center center ;
+}
+
+.dgset{
+  padding:0 20%;
+}
+h1{
+  color: #fff;
+  font-size: 1.4rem;
+}
+.button{
+  padding: 0.8rem 8rem;
+  background-color: #a8abe0;
+  border-radius: 5px;
+  font-size:small;
+  color: white;
+}
+.welHead{
+  margin-bottom: 30%;
+}
+.left_head{
+  text-align: right;
+}
+.qus_head h6{
+ color: #a8abe0;
+ font-size: small;
+}
+.signup_link a{
+  color: #fff;
+  font-size: small;
 }

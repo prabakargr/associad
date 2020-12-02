@@ -1,0 +1,70 @@
+
+
+<ion-content class="backgr" no-padding  [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="dgset">
+      <ion-col>
+        <img src="../../assets/imgs/DG.png" alt="">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size='1'></ion-col>
+      <ion-col  size='10'class="ion-text-center">
+        <h6>
+          To begin, tap each field to answer the following questions:
+        </h6>
+      </ion-col>
+      <ion-col size='1'></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size='1'></ion-col>
+      <ion-col size='10'>
+        <ion-item class="iputBox">
+          <ion-label position="floating">What country do you live in?</ion-label>
+          <ion-input></ion-input>
+        </ion-item>        
+      </ion-col>
+      <ion-col size='1'></ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-row>
+    <ion-col size='1'></ion-col>
+    <ion-col size='10'>
+      <ion-item class="iputBox">
+        <ion-label position="floating">Where is your business office<br> located?</ion-label>
+        <ion-input></ion-input>
+      </ion-item>        
+    </ion-col>
+    <ion-col size='1'></ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size='1'></ion-col>
+    <ion-col size='10'>
+      <ion-item class="iputBox">
+        <ion-label position="floating">What is your gender?</ion-label>
+        <ion-input></ion-input>
+      </ion-item>        
+    </ion-col>
+    <ion-col size='1'></ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size='1'></ion-col>
+    <ion-col size='10'>
+      <ion-item class="iputBox">
+        <ion-label position="floating">Which ethnicity do you identify<br> with?</ion-label>
+        <ion-input></ion-input>
+      </ion-item>        
+    </ion-col>
+    <ion-col size='1'></ion-col>
+  </ion-row>
+  <ion-row class=" ion-text-center">
+    <ion-col>
+      <button class="button" ion-button [routerLink]="['/signup-two']">Continue</button>
+    </ion-col>
+  </ion-row>
+  <ion-row class=" ion-text-center">
+    <ion-col>
+      <button class="button_back" ion-button [routerLink]="['/home']">Back</button>
+    </ion-col>
+  </ion-row>
+</ion-content>
