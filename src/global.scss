@@ -25,4 +25,14 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-
+ion-item {
+    color: #ffffff;
+    --background: none;
+    opacity:1;
+  }
+  ion-card-title{
+      font-size: medium;
+  }
+  ion-card-content{
+      font-size: small;
+  }

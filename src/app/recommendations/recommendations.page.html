@@ -1,0 +1,62 @@
+<ion-content class="backgr" no-padding [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="dgset">
+      <ion-col>
+        <img src="../../assets/imgs/DG_1.png" alt="">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card  [routerLink]="['/recommendations-details-two']">
+          <ion-card-header>
+            <ion-card-title>Connect with sadie</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Sadie is another techie like you,and loves hiking!Her favorite movie genre is comedy,Just like you
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card [routerLink]="['/recommendations-details-three']">
+          <ion-card-header>
+            <ion-card-title>Connect with justin</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Justin is an analyst and loves dogs.He is also loves playing basketball outside work.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card [routerLink]="['/recommendations-details-four']">
+          <ion-card-header>
+            <ion-card-title>Try out this calming breathing exercise</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Take care of your mental health withis simple and effective breathing exercise
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card  [routerLink]="['/recommendations-details']">
+          <ion-card-header>
+            <ion-card-title>Get advice from Dr.Wolfgang Seid !</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row class=" ion-text-center">
+      <ion-col>
+        <button class="button" ion-button [routerLink]="['/landing-page']">Return to Home</button>
+      </ion-col>
+    </ion-row>
+   </ion-grid>
+</ion-content>

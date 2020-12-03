@@ -27,6 +27,38 @@ const routes: Routes = [
     path: 'welcome',
     loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
   },
+  {
+    path: 'landing-page',
+    loadChildren: () => import('./landing-page/landing-page.module').then( m => m.LandingPagePageModule)
+  },
+  {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'recommendations',
+    loadChildren: () => import('./recommendations/recommendations.module').then( m => m.RecommendationsPageModule)
+  },
+  {
+    path: 'recommendations-details',
+    loadChildren: () => import('./recommendations-details/recommendations-details.module').then( m => m.RecommendationsDetailsPageModule)
+  },
+  {
+    path: 'recommendations-details-two',
+    loadChildren: () => import('./recommendations-details-two/recommendations-details-two.module').then( m => m.RecommendationsDetailsTwoPageModule)
+  },
+  {
+    path: 'recommendations-details-three',
+    loadChildren: () => import('./recommendations-details-three/recommendations-details-three.module').then( m => m.RecommendationsDetailsThreePageModule)
+  },
+  {
+    path: 'recommendations-details-four',
+    loadChildren: () => import('./recommendations-details-four/recommendations-details-four.module').then( m => m.RecommendationsDetailsFourPageModule)
+  },
+  {
+    path: 'signout',
+    loadChildren: () => import('./signout/signout.module').then( m => m.SignoutPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,33 @@
+.backgr{
+    --background: #fff url("../../assets/imgs/BG.png") no-repeat center ;
+  }
+
+.dgset{
+    padding:10% 30% 0 30%;
+    margin-bottom: 2rem;
+  }
+
+  .details_content{
+    h2{
+        font-size: large;
+        color: #fff;
+        border-bottom: 3px solid #fff;
+  }
+}
+p{
+  font-size: medium;
+    color: #fff;
+}
+.qus_head p{
+    color: #a8abe0;
+    font-size: medium;
+   }
+
+   .button_back{
+    margin-top: 5rem;
+    padding: 0.8rem 1.75rem;
+    background-color: #a8abe0;
+    border-radius: 5px;
+    font-size:small;
+    color: white;
+  }
