@@ -37,3 +37,14 @@ ion-item {
   ion-card-content{
       font-size: small;
   }
+  ion-item.item-has-focus > ion-label{
+    color: #FFFFFF !important;
+  }
+
+  ion-item{
+    --border-color: #FFFFFF !important;
+  }
+
+  .item-has-focus{
+      --highlight-background: #FFFFFF !important;
+  }
